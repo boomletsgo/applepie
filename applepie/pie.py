@@ -3,6 +3,7 @@ import binascii
 import datetime
 import hashlib
 import json
+import os
 
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import ciphers
@@ -76,7 +77,7 @@ class Parser(object):
 
     def load_root_certificate(self, root_certificate=None):
         if not root_certificate:
-            root_certificate = "./certs/AppleRootCA-G3.cer"
+            root_certificate = os.path.join(os.path.dirname(os.path.abspath(__file__)), "certs", "AppleRootCA-G3.cer")
 
         try:
             root_certificate = self.load_certificate(root_certificate)
