@@ -21,7 +21,7 @@ setup(
     author='Jordan Ambra',
     author_email='jordan@boom.app',
     url='https://github.com/boomletsgo/applepie',
-    version='1.0.4',
+    version='1.0.5',
     classifiers=classifiers,
     description='Apple Pay library',
     keywords='Apple Pay',
