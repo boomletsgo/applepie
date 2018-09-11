@@ -21,14 +21,14 @@ setup(
     author='Jordan Ambra',
     author_email='jordan@boom.app',
     url='https://github.com/boomletsgo/applepie',
-    version='1.0.2',
+    version='1.0.3',
     classifiers=classifiers,
     description='Apple Pay library',
     keywords='Apple Pay',
     packages=["applepie"],
     install_requires=[
         "cryptography>=2.0.0",
-        "pymoneyed>=0.7.0",
+        "py-moneyed>=0.7.0",
         "pyOpenSSL>=18.0.0",
         "six>=1.0.0"
     ],
