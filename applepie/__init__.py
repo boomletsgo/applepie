@@ -1,2 +1,2 @@
-from pie import Parser
+from applepie.pie import Parser, Token
 __all__ = ["Parser"]

@@ -13,8 +13,8 @@ from OpenSSL import crypto
 from OpenSSL._util import ffi
 from OpenSSL._util import lib
 
-import currencies
-import exceptions
+from applepie import currencies
+from applepie import exceptions
 
 
 class Parser(object):
